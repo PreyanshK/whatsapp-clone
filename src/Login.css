@@ -1,0 +1,34 @@
+.login {
+  background-color: #f8f8f8;
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+}
+
+.login__container {
+  padding: 100px;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: -1px 4px 10px -6px rgba(0, 0, 0, 0.5);
+}
+
+.login__container > img {
+  object-fit: contain;
+  height: 100px;
+  margin-bottom: 40px;
+}
+
+.login__container > button {
+  margin-top: 50px;
+  /* Inherit will prevent the text from being all CAPS */
+  text-transform: inherit !important;
+  font-size: 18px;
+  background-color: #05cd51 !important;
+  color: white;
+}
+
+.login__container > button:hover {
+  background-color: #2fb943 !important;
+}

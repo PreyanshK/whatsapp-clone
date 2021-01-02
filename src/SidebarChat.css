@@ -1,0 +1,54 @@
+.sidebarChat {
+  display: flex;
+  padding: 15px 15px 0px 15px;
+  cursor: pointer;
+}
+
+.sidebarChat:hover {
+  background-color: #f6f6f6;
+}
+
+a {
+  text-decoration: none !important;
+  color: black;
+}
+
+.sidebarChat__newChat {
+  padding: 15px 0px 10px 15px;
+  border-bottom: 2px solid #f5f5f5;
+}
+
+.sidebarChat__newChat > .MuiSvgIcon-root {
+  background-color: #009688;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.sidebarChat__newChat_text {
+  width: 100%;
+  margin-left: 15px;
+}
+
+.sidebarChat__newChat_text > h2 {
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 8px;
+}
+
+.sidebarChat__info {
+  width: 100%;
+  margin-left: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1.5px solid #f5f5f5;
+}
+
+.sidebarChat__info > h2 {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.sidebarChat__info > p {
+  font-size: 15px;
+  color: #757575;
+}
